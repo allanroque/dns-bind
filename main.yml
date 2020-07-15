@@ -1,0 +1,5 @@
+---
+- name: Install Bind DNS Server
+  hosts: dns
+  roles:
+    - ../dns-bind

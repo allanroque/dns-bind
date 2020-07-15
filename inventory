@@ -1,0 +1,8 @@
+[all:vars]
+ansible_password=redhat*99
+ansible_ssh_port=22
+ansible_user=root
+
+[dns]
+dns ansible_host=192.168.100.21
+

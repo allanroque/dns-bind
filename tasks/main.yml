@@ -1,0 +1,9 @@
+---
+# tasks file for dns-bind
+
+- name: Install the DNS server packages
+  yum:
+    name:
+      - bind
+      - bind-chroot
+    state: present
